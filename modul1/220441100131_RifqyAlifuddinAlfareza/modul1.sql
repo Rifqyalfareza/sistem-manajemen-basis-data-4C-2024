@@ -157,7 +157,6 @@ INSERT INTO Resep (pemeriksaan_id, obat_id, jumlah) VALUES
 (19, 19, 1),
 (20, 20, 2);
 
-SELECT nama_pasien, nama_dokter, keluhan FROM pasien JOIN pemeriksaan ON pasien.pasien_id = pemeriksaan.pasien_id 
-JOIN dokter ON pemeriksaan.dokter_id = dokter.dokter_id;
+select * from dokter where spesialisasi="dokter Gigi"
 
 

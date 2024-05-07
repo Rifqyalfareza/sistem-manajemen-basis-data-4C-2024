@@ -19,6 +19,9 @@ SELECT nama_pasien,alamat FROM pasien;
 
 UPDATE dokterspesialis SET spesialisasi = 'Bedah otak'
 WHERE nama_dokter = 'Dr. Indah';
+
+update pasiendokter set nama_dokter = "Dr. ajhsj" , nama_pasien = "POPOP"
+
  
 SELECT*FROM pasiendokter;
 SELECT*FROM obatpasien;
